@@ -1,0 +1,36 @@
+.show{
+    background-color: #593cfbc5;
+    color: white;
+    border: 1px solid #000000c1;
+
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+    position: fixed;
+
+    top: 700px;
+    right: 25px;
+
+
+    
+    z-index: 10;
+
+    
+    opacity: 1;
+    transform: translateX(0);
+
+    
+    transition: all ease-in-out .4s;
+}
+
+.hidden{
+    right: -40px;
+    transform: translateX(100%);
+    transition: 200ms;
+}
+
+button svg{
+    width: 50%;
+    height: 50%;
+}
